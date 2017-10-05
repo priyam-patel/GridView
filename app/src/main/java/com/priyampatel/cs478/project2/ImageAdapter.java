@@ -6,11 +6,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.List;
 
 public class ImageAdapter extends BaseAdapter {
-    private static final int PADDING = 8;
+    private static final int PADDING = 5;
     private static final int WIDTH = 500;
     private static final int HEIGHT = 500;
     private Context mContext;          // This will have to be passed to the ImageView

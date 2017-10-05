@@ -45,9 +45,6 @@ public class ImageViewActivity extends Activity {
     }
 
     //match each picture ID with the specified URL of the car's manufacturer
-
-    //Yes, I am doing this manually.
-    //Yes, I know how to design this to be object oriented but I am running out of time.
     public String getURL(int position){
 
         String URL = "";
